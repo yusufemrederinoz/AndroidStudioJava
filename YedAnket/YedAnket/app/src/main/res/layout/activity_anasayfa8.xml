@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnasayfaActivity">
+    <Toolbar
+        android:id="@+id/anasayfaToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#363537" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="ÇIKIŞ YAP"
+        android:textSize="18sp" />
+
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/anasayfa8soru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:text="Firmanızın çalışan sayısı nedir?"
+            android:textSize="30sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox81"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="1-5 Kişi"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox82"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6-10 Kişi"
+
+
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox83"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="11-20 Kişi"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox84"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="21-50 Kişi"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox85"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="51-100 Kişi"
+            android:textSize="20sp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox86"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="101-250 Kişi"
+            android:textSize="20sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkbox87"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="251-500 Kişi"
+            android:textSize="20sp"
+
+            />
+        <CheckBox
+            android:id="@+id/checkbox88"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="500 Kişi ve yukarısı"
+            android:textSize="20sp"
+
+            />
+
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/anasayfa8button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:text="İleri  >>"
+                android:textSize="16dp"
+                />
+            <Button
+                android:id="@+id/anasayfa8button2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="Geri"
+                android:textSize="16dp" />
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+</RelativeLayout>

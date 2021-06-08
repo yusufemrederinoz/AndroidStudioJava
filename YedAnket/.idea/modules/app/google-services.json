@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "1023054241108",
+    "firebase_url": "https://yedanket-fe075.firebaseio.com",
+    "project_id": "yedanket-fe075",
+    "storage_bucket": "yedanket-fe075.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1023054241108:android:5c80d7639874edd5e47cc1",
+        "android_client_info": {
+          "package_name": "com.example.yedanket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1023054241108-tdq00025t1egk9verb6jr1t1hsnlc1u1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.yedanket",
+            "certificate_hash": "d5a6084280afcfa89ea80e914f2ce25720be965f"
+          }
+        },
+        {
+          "client_id": "1023054241108-9g0u25kecs27vlf4i2lfg0vhunh16dve.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDI8BPkxAibmCDJ5cNz2sth7ob12s4L55Y"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1023054241108-9g0u25kecs27vlf4i2lfg0vhunh16dve.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

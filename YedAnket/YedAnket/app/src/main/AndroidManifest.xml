@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.yedanket">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".sonactivity"></activity>
+        <activity android:name=".anasayfa4" />
+        <activity android:name=".anasayfa16" />
+        <activity android:name=".anasayfa15" />
+        <activity android:name=".anasayfa14" />
+        <activity android:name=".anasayfa13" />
+        <activity android:name=".anasayfa12" />
+        <activity android:name=".anasayfa11" />
+        <activity android:name=".anasayfa10" />
+        <activity android:name=".anasayfa9" />
+        <activity android:name=".anasayfa8" />
+        <activity android:name=".anasayfa7" />
+        <activity android:name=".anasayfa6" />
+        <activity android:name=".anasayfa5" />
+        <activity android:name=".Anasayfa3Activity" />
+        <activity android:name=".Anasayfa2Activity" />
+        <activity android:name=".AnasayfaActivity" />
+        <activity android:name=".KayitActivity" />
+        <activity android:name=".GirisActivity" />
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

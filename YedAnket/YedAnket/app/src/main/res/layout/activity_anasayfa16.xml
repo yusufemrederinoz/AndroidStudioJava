@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnasayfaActivity">
+    <Toolbar
+        android:id="@+id/anasayfaToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#363537" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="ÇIKIŞ YAP"
+        android:textSize="18sp" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/anasayfa16soru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:layout_marginTop="200dp"
+            android:text="Ar-Ge faaliyetlerinizi yürütmek için ne kadar bütçe ayırdınız?"
+            android:textSize="30sp"
+
+            />
+
+
+        <CheckBox
+            android:id="@+id/checkbox161"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="0 - 10.000 TL"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox162"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="10.001 - 25.000 TL"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/checkbox163"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="25.001 - 50.000 TL"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/checkbox164"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="50.001 - 100.000 TL"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/checkbox165"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="100.001 - 250.000 TL"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/checkbox166"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="250.001 - 500.000 TL"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/checkbox167"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="500.001 - 1.000.000 TL"
+            android:textSize="20sp" />
+        <CheckBox
+            android:id="@+id/checkbox168"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="1.000.001 TL ve Yukarısı"
+            android:textSize="20sp" />
+
+
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <Button
+                android:id="@+id/anasayfa16button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:text="İleri  >>"
+                android:textSize="16dp"
+                />
+            <Button
+                android:id="@+id/anasayfa16button2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="Geri"
+                android:textSize="16dp" />
+
+        </GridLayout>
+
+    </LinearLayout>
+
+</ScrollView>
+
+
+</RelativeLayout>

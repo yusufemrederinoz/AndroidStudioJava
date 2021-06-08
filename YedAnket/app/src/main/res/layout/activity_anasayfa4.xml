@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnasayfaActivity">
+    <Toolbar
+        android:id="@+id/anasayfaToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#363537" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="ÇIKIŞ YAP"
+        android:textSize="18sp" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/anasayfa4soru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Ar-Ge faaliyetleri kapsamında bir kuruluştan talep olması durumunda, bir kuruluşun teknolojisini ar-ge projenize dahil etmek ister misiniz?"
+            android:textSize="25sp"
+            android:layout_marginTop="200dp"
+
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox41"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Evet"
+            android:layout_marginTop="80dp"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox42"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="Hayır"
+            android:textSize="20sp" />
+
+
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/anasayfa4button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_marginLeft="300dp"
+        android:text="İleri  >>"
+        android:textSize="16dp"
+        />
+    <Button
+        android:id="@+id/anasayfa4button2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="630dp"
+        android:layout_marginRight="300dp"
+
+        android:text="Geri"
+        android:textSize="16dp" />
+
+
+
+</RelativeLayout>

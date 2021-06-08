@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "884970649940",
+    "firebase_url": "https://yedanket-8887b.firebaseio.com",
+    "project_id": "yedanket-8887b",
+    "storage_bucket": "yedanket-8887b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:884970649940:android:8a66877898862479b9f0c1",
+        "android_client_info": {
+          "package_name": "com.example.yedanket"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "884970649940-2blk3j03qvoh18vs9pisadp4ihqve32d.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDU6nXyT5JM4X7WCxnmZ2rsG4T-SUll1Q8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "884970649940-2blk3j03qvoh18vs9pisadp4ihqve32d.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

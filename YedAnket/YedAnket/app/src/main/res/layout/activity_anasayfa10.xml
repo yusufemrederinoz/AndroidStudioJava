@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".AnasayfaActivity">
+    <Toolbar
+        android:id="@+id/anasayfaToolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#363537" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:text="ÇIKIŞ YAP"
+        android:textSize="18sp" />
+<ScrollView
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/anasayfa10soru"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="200dp"
+            android:gravity="center"
+            android:text="Yazmış olduğunuz onaylanan proje sayısı nedir? "
+            android:textSize="30sp"
+
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="(Sanayi ve Teknoloji Bakanlığı, TÜBİTAK, AB, Kalkınma Ajansı, KOSGEB, Teknokent vb.)"
+            android:gravity="center"
+            />
+
+        <CheckBox
+            android:id="@+id/checkbox101"
+            android:layout_width="match_parent"
+            android:layout_marginTop="20dp"
+            android:layout_height="wrap_content"
+            android:text="1-5 Proje "
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox102"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="6-10 Proje"
+
+
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox103"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="11-20 Proje"
+            android:textSize="20sp" />
+
+        <CheckBox
+            android:id="@+id/checkbox104"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="21 proje ve yukarısı"
+            android:textSize="20sp" />
+
+        <GridLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+
+            >
+            <Button
+                android:id="@+id/anasayfa10button"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="2"
+                android:text="İleri  >>"
+                android:textSize="16dp"
+                />
+            <Button
+                android:id="@+id/anasayfa10button2"
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_row="0"
+                android:layout_column="0"
+                android:text="Geri"
+                android:textSize="16dp" />
+
+        </GridLayout>
+    </LinearLayout>
+</ScrollView>
+
+
+</RelativeLayout>
