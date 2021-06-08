@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".yoneticipanelactivity"
+    android:orientation="vertical">
+
+
+
+    <EditText
+        android:id="@+id/plaka"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="250dp"
+        android:hint="Plaka No(örn:00-XX-000)"
+        android:gravity="center"
+
+        />
+    <EditText
+        android:id="@+id/saat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Saat Giriniz(SS:DD)"
+        android:gravity="center"
+        android:inputType="time"
+        />
+    <EditText
+        android:id="@+id/tarihgir"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Tarih Giriniz(GG/AA/YYYY)"
+        android:gravity="center"
+        android:inputType="date"
+        />
+
+    <Button
+        android:id="@+id/bildirim"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:text="Bildirim Yolla"
+
+        />
+
+
+
+</LinearLayout>
+
+
+
+
+
